@@ -1,20 +1,21 @@
 {
-  "name": "react-text-mask",
-  "version": "5.4.3",
+  "name": "@hariria/react-text-mask",
+  "version": "5.4.4",
   "description": "React input component that accepts mask pattern",
   "main": "dist/reactTextMask.js",
+  "types": "dist/reactTextMask.d.ts",
   "author": "M.K. Safi <msafi@msafi.com>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/text-mask/text-mask/issues"
+    "url": "https://github.com/hariria/text-mask/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/text-mask/text-mask.git"
+    "url": "https://github.com/hariria/text-mask.git"
   },
   "homepage": "https://github.com/text-mask/text-mask/tree/master/react/#readme",
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+    "react": "^18.0.0"
   },
   "babel": {
     "presets": [

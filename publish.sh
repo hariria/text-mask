@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Expected arguments: 1) version"
 
 version=$1
@@ -9,4 +11,4 @@ fi
 
 generatedNpmVersion="$(npm version $version)"
 
-npm publish --access public --tag "text-mask-${generatedNpmVersion}"
+npm publish --access public --tag "@hariria/text-mask-${generatedNpmVersion}"
